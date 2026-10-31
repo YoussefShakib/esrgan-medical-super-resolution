@@ -1,0 +1,27 @@
+experiment_name: eval_stratified
+model_name: esrgan
+scale: 4
+seed: 42
+device: auto
+save_dir: runs
+
+dataset:
+  train_hr_dir: datasets/train_HR_stratified
+  val_hr_dir: datasets/val_HR_stratified
+  image_mode: RGB
+  patch_size: 192
+  eval_crop_size: 512
+  degradation:
+    method: mixed
+    mixed_methods: [bicubic, bilinear, nearest]
+
+training:
+  batch_size: 4
+  num_workers: 0
+  epochs: 1
+  lr_g: 0.0001
+  lr_d: 0.0001
+  gan_start_epoch: 15
+  pixel_weight: 1.0
+  perceptual_weight: 0.01
+  adv_weight: 0.005

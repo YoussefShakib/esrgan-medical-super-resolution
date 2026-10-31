@@ -1,0 +1,10 @@
+Training 4 model(s): [('bach', 'resnet50'), ('bach', 'efficientnet_b0'), ('brisc', 'resnet50'), ('brisc', 'efficientnet_b0')]
+  epochs=50  batch_size=16  lr=0.0003  patience=10  seed=42
+
+============================================================
+  dataset=bach  arch=resnet50
+============================================================
+[bach/resnet50] Loading datasets …
+  train=340  val=60  classes=['Normal', 'Benign', 'InSitu', 'Invasive']
+  trainable params: 14,972,932
+  Epoch   1  train_loss=1.3908  train_acc=0.232  val_loss=1.3816  val_acc=0.267  top3=0.733  lr=3.00e-05

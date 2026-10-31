@@ -1,0 +1,16 @@
+{
+  "epoch": 6,
+  "arch": "efficientnet_b0",
+  "dataset": "bach",
+  "class_names": [
+    "Normal",
+    "Benign",
+    "InSitu",
+    "Invasive"
+  ],
+  "val_acc": 0.7,
+  "val_acc_top3": 0.8833333373069763,
+  "val_loss": 1.6332794745763144,
+  "train_acc": 0.7588235294117647,
+  "train_loss": 1.1036722183227539
+}

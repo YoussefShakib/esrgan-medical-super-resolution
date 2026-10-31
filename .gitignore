@@ -1,0 +1,85 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Datasets — NOT redistributed
+#
+# BACH (ICIAR 2018 Grand Challenge) and the BRISC brain-MRI set are
+# third-party datasets with their own licence and redistribution terms.
+# See README.md -> "Obtaining the data" for download instructions and the
+# expected directory layout.
+# ---------------------------------------------------------------------------
+datasets/
+
+# ---------------------------------------------------------------------------
+# Model weights — published as GitHub Release assets, not tracked in git
+#
+# Checkpoints are 16-90 MB each (~1.5 GB total), which does not belong in
+# version control. The key generator + classifier weights are attached to
+# the v1.0 release; see README.md -> "Pre-trained weights".
+# ---------------------------------------------------------------------------
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ---------------------------------------------------------------------------
+# Training run artifacts
+#
+# Kept in git:     metrics (*.json), curves (*.csv), plots/, logs/, used_config.yaml
+# Excluded here:   per-epoch sample grids (hundreds of PNGs, ~65 MB)
+# ---------------------------------------------------------------------------
+runs/**/samples/
+
+# ---------------------------------------------------------------------------
+# Streamlit app output — regenerated per session, large exported panels
+# ---------------------------------------------------------------------------
+ui_outputs/
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+*.log
+!runs/**/*.log
+
+# ---------------------------------------------------------------------------
+# Editor / OS / local agent config
+# ---------------------------------------------------------------------------
+.claude/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Local debug scratch (throwaway Streamlit button/inference probes)
+# ---------------------------------------------------------------------------
+/test_button.py
+/test_minimal.py
+/test_inference.py

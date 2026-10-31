@@ -1,0 +1,6 @@
+{
+  "epoch": 34,
+  "val_psnr": 29.184873332758624,
+  "val_ssim": 0.8073305547237396,
+  "model_name": "srresnet"
+}

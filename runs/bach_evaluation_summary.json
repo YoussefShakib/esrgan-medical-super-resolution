@@ -1,0 +1,42 @@
+{
+  "original_split": {
+    "split": "original (17:10:19:14 val)",
+    "num_val_images": 60,
+    "bicubic": {
+      "psnr": 29.7598,
+      "ssim": 0.8157
+    },
+    "srresnet": {
+      "psnr": 29.1849,
+      "ssim": 0.8073
+    },
+    "edsr": {
+      "psnr": 28.7862,
+      "ssim": 0.7855
+    },
+    "esrgan": {
+      "psnr": 29.437,
+      "ssim": 0.8152
+    }
+  },
+  "stratified_split": {
+    "split": "stratified (15:15:15:15 val)",
+    "num_val_images": 60,
+    "bicubic": {
+      "psnr": 28.743,
+      "ssim": 0.8212
+    },
+    "srresnet": {
+      "psnr": 27.9941,
+      "ssim": 0.8079
+    },
+    "edsr": {
+      "psnr": 27.512,
+      "ssim": 0.7813
+    },
+    "esrgan": {
+      "psnr": 28.3139,
+      "ssim": 0.8138
+    }
+  }
+}

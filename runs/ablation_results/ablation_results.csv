@@ -1,0 +1,3 @@
+config,psnr,ssim,lpips,num_images
+bicubic_only,30.1894,0.8279,0.1828,60
+mixed_degradation,29.5766,0.8186,0.2064,60

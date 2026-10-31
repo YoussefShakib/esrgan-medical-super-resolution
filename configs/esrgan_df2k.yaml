@@ -1,0 +1,23 @@
+experiment_name: esrgan_df2k_x4
+model_name: esrgan
+scale: 4
+seed: 42
+device: auto
+save_dir: runs
+
+dataset:
+  train_hr_dir: datasets/DF2K/train_HR
+  val_hr_dir: datasets/DF2K/val_HR
+  patch_size: 128
+
+training:
+  batch_size: 4
+  num_workers: 4
+  epochs: 60
+  lr_g: 0.0001
+  lr_d: 0.0001
+  gan_start_epoch: 10
+  pixel_weight: 1.0
+  perceptual_weight: 0.01
+  adv_weight: 0.005
+  pretrained_generator:

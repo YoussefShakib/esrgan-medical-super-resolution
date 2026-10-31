@@ -1,0 +1,6 @@
+{
+  "checkpoint": "runs\\edsr_bach_x4\\checkpoints\\best.pth",
+  "mean_psnr": 28.786242197865494,
+  "mean_ssim": 0.7855223188797633,
+  "num_images": 60
+}

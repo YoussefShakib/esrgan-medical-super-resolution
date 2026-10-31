@@ -1,0 +1,131 @@
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:913]: Loaded config: configs/esrgan_ablation_mixed.yaml
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:914]: Model: esrgan, Scale: 4
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:916]: Stable-GAN schedule ENABLED
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:419]: Starting ESRGAN training for esrgan_ablation_mixed
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:432]: Experiment dir: runs\esrgan_ablation_mixed
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:482]: Generator parameters: 7,567,043
+[2026-05-06 09:04:00] [32mINFO[0m [train.py:483]: Discriminator parameters: 5,215,425
+[2026-05-06 09:04:02] [32mINFO[0m [train.py:509]: Stable-GAN: lr_g=1.00e-04, lr_d=2.00e-05, disc_warmup=2, r1_weight=10.0
+[2026-05-06 09:04:02] [32mINFO[0m [train.py:588]: Starting ESRGAN training from epoch 1/100
+[2026-05-06 09:04:02] [32mINFO[0m [train.py:589]: GAN will start at epoch 15
+[2026-05-06 09:04:02] [32mINFO[0m [train.py:590]: Validation cadence: every 1 epoch(s); sample cadence: every 1 epoch(s)
+[2026-05-06 09:12:25] [32mINFO[0m [train.py:813]: New best PSNR: 21.80
+[2026-05-06 09:12:25] [32mINFO[0m [train.py:848]: Epoch 1: g_total=0.1684, d_loss=0.0000, val_psnr=21.80, val_ssim=0.5606
+[2026-05-06 09:20:47] [32mINFO[0m [train.py:813]: New best PSNR: 24.53
+[2026-05-06 09:20:47] [32mINFO[0m [train.py:848]: Epoch 2: g_total=0.0711, d_loss=0.0000, val_psnr=24.53, val_ssim=0.6961
+[2026-05-06 09:29:10] [32mINFO[0m [train.py:813]: New best PSNR: 25.74
+[2026-05-06 09:29:10] [32mINFO[0m [train.py:848]: Epoch 3: g_total=0.0572, d_loss=0.0000, val_psnr=25.74, val_ssim=0.7401
+[2026-05-06 09:37:32] [32mINFO[0m [train.py:848]: Epoch 4: g_total=0.0492, d_loss=0.0000, val_psnr=25.03, val_ssim=0.7645
+[2026-05-06 09:45:52] [32mINFO[0m [train.py:813]: New best PSNR: 27.90
+[2026-05-06 09:45:52] [32mINFO[0m [train.py:848]: Epoch 5: g_total=0.0485, d_loss=0.0000, val_psnr=27.90, val_ssim=0.7762
+[2026-05-06 09:54:12] [32mINFO[0m [train.py:813]: New best PSNR: 28.27
+[2026-05-06 09:54:12] [32mINFO[0m [train.py:848]: Epoch 6: g_total=0.0435, d_loss=0.0000, val_psnr=28.27, val_ssim=0.7877
+[2026-05-06 10:02:32] [32mINFO[0m [train.py:813]: New best PSNR: 28.38
+[2026-05-06 10:02:32] [32mINFO[0m [train.py:848]: Epoch 7: g_total=0.0423, d_loss=0.0000, val_psnr=28.38, val_ssim=0.7922
+[2026-05-06 10:10:55] [32mINFO[0m [train.py:848]: Epoch 8: g_total=0.0408, d_loss=0.0000, val_psnr=27.64, val_ssim=0.7946
+[2026-05-06 10:19:20] [32mINFO[0m [train.py:813]: New best PSNR: 28.46
+[2026-05-06 10:19:20] [32mINFO[0m [train.py:848]: Epoch 9: g_total=0.0412, d_loss=0.0000, val_psnr=28.46, val_ssim=0.8013
+[2026-05-06 10:27:56] [32mINFO[0m [train.py:813]: New best PSNR: 28.83
+[2026-05-06 10:27:56] [32mINFO[0m [train.py:848]: Epoch 10: g_total=0.0416, d_loss=0.0000, val_psnr=28.83, val_ssim=0.8016
+[2026-05-06 10:36:25] [32mINFO[0m [train.py:848]: Epoch 11: g_total=0.0406, d_loss=0.0000, val_psnr=28.22, val_ssim=0.8022
+[2026-05-06 10:44:54] [32mINFO[0m [train.py:813]: New best PSNR: 28.98
+[2026-05-06 10:44:54] [32mINFO[0m [train.py:848]: Epoch 12: g_total=0.0423, d_loss=0.0000, val_psnr=28.98, val_ssim=0.8062
+[2026-05-06 10:53:36] [32mINFO[0m [train.py:848]: Epoch 13: g_total=0.0406, d_loss=0.0000, val_psnr=28.90, val_ssim=0.7994
+[2026-05-06 11:02:02] [32mINFO[0m [train.py:813]: New best PSNR: 29.02
+[2026-05-06 11:02:02] [32mINFO[0m [train.py:848]: Epoch 14: g_total=0.0392, d_loss=0.0000, val_psnr=29.02, val_ssim=0.8109
+[2026-05-06 11:14:06] [32mINFO[0m [train.py:813]: New best PSNR: 29.13
+[2026-05-06 11:14:06] [32mINFO[0m [train.py:844]: New best post-GAN SSIM: 0.8111
+[2026-05-06 11:14:06] [32mINFO[0m [train.py:848]: Epoch 15: g_total=0.0388, d_loss=2.0118, val_psnr=29.13, val_ssim=0.8111
+[2026-05-06 11:26:10] [32mINFO[0m [train.py:848]: Epoch 16: g_total=0.0388, d_loss=1.9295, val_psnr=28.72, val_ssim=0.8036
+[2026-05-06 11:38:55] [32mINFO[0m [train.py:813]: New best PSNR: 29.17
+[2026-05-06 11:38:55] [32mINFO[0m [train.py:844]: New best post-GAN SSIM: 0.8112
+[2026-05-06 11:38:55] [32mINFO[0m [train.py:848]: Epoch 17: g_total=0.0399, d_loss=1.7561, val_psnr=29.17, val_ssim=0.8112
+[2026-05-06 11:51:36] [32mINFO[0m [train.py:813]: New best PSNR: 29.54
+[2026-05-06 11:51:36] [32mINFO[0m [train.py:844]: New best post-GAN SSIM: 0.8165
+[2026-05-06 11:51:36] [32mINFO[0m [train.py:848]: Epoch 18: g_total=0.0406, d_loss=1.6262, val_psnr=29.54, val_ssim=0.8165
+[2026-05-06 12:04:09] [32mINFO[0m [train.py:813]: New best PSNR: 29.58
+[2026-05-06 12:04:10] [32mINFO[0m [train.py:844]: New best post-GAN SSIM: 0.8186
+[2026-05-06 12:04:10] [32mINFO[0m [train.py:848]: Epoch 19: g_total=0.0397, d_loss=1.5762, val_psnr=29.58, val_ssim=0.8186
+[2026-05-06 12:17:03] [32mINFO[0m [train.py:848]: Epoch 20: g_total=0.0406, d_loss=1.5318, val_psnr=29.12, val_ssim=0.8054
+[2026-05-06 12:29:40] [32mINFO[0m [train.py:848]: Epoch 21: g_total=0.0395, d_loss=1.4422, val_psnr=29.38, val_ssim=0.8055
+[2026-05-06 12:42:13] [32mINFO[0m [train.py:848]: Epoch 22: g_total=0.0402, d_loss=1.4370, val_psnr=29.19, val_ssim=0.8000
+[2026-05-06 12:54:53] [32mINFO[0m [train.py:848]: Epoch 23: g_total=0.0402, d_loss=1.4213, val_psnr=29.48, val_ssim=0.8068
+[2026-05-06 13:07:30] [32mINFO[0m [train.py:848]: Epoch 24: g_total=0.0402, d_loss=1.6829, val_psnr=29.31, val_ssim=0.8078
+[2026-05-06 13:20:36] [32mINFO[0m [train.py:848]: Epoch 25: g_total=0.0405, d_loss=1.5601, val_psnr=29.51, val_ssim=0.8114
+[2026-05-06 13:33:36] [32mINFO[0m [train.py:848]: Epoch 26: g_total=0.0413, d_loss=1.6067, val_psnr=29.34, val_ssim=0.7991
+[2026-05-06 13:46:13] [32mINFO[0m [train.py:848]: Epoch 27: g_total=0.0409, d_loss=1.6251, val_psnr=28.83, val_ssim=0.7909
+[2026-05-06 13:58:58] [32mINFO[0m [train.py:848]: Epoch 28: g_total=0.0414, d_loss=1.7473, val_psnr=29.07, val_ssim=0.7971
+[2026-05-06 14:11:46] [32mINFO[0m [train.py:848]: Epoch 29: g_total=0.0412, d_loss=1.3246, val_psnr=29.27, val_ssim=0.8125
+[2026-05-06 14:24:21] [32mINFO[0m [train.py:848]: Epoch 30: g_total=0.0413, d_loss=1.5802, val_psnr=28.91, val_ssim=0.7984
+[2026-05-06 14:36:54] [32mINFO[0m [train.py:848]: Epoch 31: g_total=0.0414, d_loss=1.7001, val_psnr=28.62, val_ssim=0.7818
+[2026-05-06 14:49:36] [32mINFO[0m [train.py:848]: Epoch 32: g_total=0.0408, d_loss=1.7741, val_psnr=28.82, val_ssim=0.8034
+[2026-05-06 15:02:35] [32mINFO[0m [train.py:848]: Epoch 33: g_total=0.0382, d_loss=1.7270, val_psnr=29.20, val_ssim=0.8050
+[2026-05-06 15:18:14] [32mINFO[0m [train.py:848]: Epoch 34: g_total=0.0407, d_loss=1.4059, val_psnr=28.87, val_ssim=0.8108
+[2026-05-06 15:33:41] [32mINFO[0m [train.py:848]: Epoch 35: g_total=0.0399, d_loss=1.5312, val_psnr=29.39, val_ssim=0.8058
+[2026-05-06 15:47:24] [32mINFO[0m [train.py:848]: Epoch 36: g_total=0.0393, d_loss=1.8427, val_psnr=29.42, val_ssim=0.8045
+[2026-05-06 16:01:01] [32mINFO[0m [train.py:848]: Epoch 37: g_total=0.0403, d_loss=1.5956, val_psnr=29.18, val_ssim=0.7989
+[2026-05-06 16:14:32] [32mINFO[0m [train.py:848]: Epoch 38: g_total=0.0408, d_loss=1.5238, val_psnr=28.29, val_ssim=0.7868
+[2026-05-06 16:27:59] [32mINFO[0m [train.py:848]: Epoch 39: g_total=0.0401, d_loss=1.6655, val_psnr=28.93, val_ssim=0.7906
+[2026-05-06 16:41:27] [32mINFO[0m [train.py:848]: Epoch 40: g_total=0.0403, d_loss=1.6483, val_psnr=29.16, val_ssim=0.7979
+[2026-05-06 16:55:28] [32mINFO[0m [train.py:848]: Epoch 41: g_total=0.0401, d_loss=1.5752, val_psnr=29.17, val_ssim=0.7963
+[2026-05-06 17:09:18] [32mINFO[0m [train.py:848]: Epoch 42: g_total=0.0406, d_loss=1.8220, val_psnr=28.94, val_ssim=0.7865
+[2026-05-06 17:22:57] [32mINFO[0m [train.py:848]: Epoch 43: g_total=0.0393, d_loss=1.8675, val_psnr=28.91, val_ssim=0.7881
+[2026-05-06 17:36:40] [32mINFO[0m [train.py:848]: Epoch 44: g_total=0.0397, d_loss=1.5177, val_psnr=29.03, val_ssim=0.7936
+[2026-05-06 17:50:22] [32mINFO[0m [train.py:848]: Epoch 45: g_total=0.0397, d_loss=1.8233, val_psnr=28.86, val_ssim=0.7895
+[2026-05-06 18:03:58] [32mINFO[0m [train.py:848]: Epoch 46: g_total=0.0390, d_loss=1.6852, val_psnr=29.23, val_ssim=0.8057
+[2026-05-06 18:20:13] [32mINFO[0m [train.py:848]: Epoch 47: g_total=0.0384, d_loss=1.5864, val_psnr=29.21, val_ssim=0.8026
+[2026-05-06 18:45:17] [32mINFO[0m [train.py:848]: Epoch 48: g_total=0.0400, d_loss=1.7908, val_psnr=29.04, val_ssim=0.7977
+[2026-05-06 20:07:16] [32mINFO[0m [train.py:848]: Epoch 49: g_total=0.0408, d_loss=1.5583, val_psnr=29.20, val_ssim=0.7957
+[2026-05-06 20:21:16] [32mINFO[0m [train.py:848]: Epoch 50: g_total=0.0389, d_loss=1.5981, val_psnr=29.02, val_ssim=0.7917
+[2026-05-06 20:35:26] [32mINFO[0m [train.py:848]: Epoch 51: g_total=0.0387, d_loss=1.8790, val_psnr=29.04, val_ssim=0.7996
+[2026-05-06 20:50:32] [32mINFO[0m [train.py:848]: Epoch 52: g_total=0.0384, d_loss=1.6506, val_psnr=29.03, val_ssim=0.7936
+[2026-05-06 21:05:11] [32mINFO[0m [train.py:848]: Epoch 53: g_total=0.0402, d_loss=1.6113, val_psnr=28.71, val_ssim=0.7860
+[2026-05-06 21:19:34] [32mINFO[0m [train.py:848]: Epoch 54: g_total=0.0409, d_loss=1.5713, val_psnr=28.92, val_ssim=0.7922
+[2026-05-06 21:33:49] [32mINFO[0m [train.py:848]: Epoch 55: g_total=0.0386, d_loss=1.8289, val_psnr=28.87, val_ssim=0.7927
+[2026-05-06 21:47:52] [32mINFO[0m [train.py:848]: Epoch 56: g_total=0.0386, d_loss=1.6242, val_psnr=29.06, val_ssim=0.7992
+[2026-05-06 22:01:50] [32mINFO[0m [train.py:848]: Epoch 57: g_total=0.0395, d_loss=1.4928, val_psnr=28.55, val_ssim=0.7785
+[2026-05-06 22:15:49] [32mINFO[0m [train.py:848]: Epoch 58: g_total=0.0409, d_loss=1.7164, val_psnr=28.80, val_ssim=0.7853
+[2026-05-06 22:29:42] [32mINFO[0m [train.py:848]: Epoch 59: g_total=0.0400, d_loss=1.6661, val_psnr=28.91, val_ssim=0.7883
+[2026-05-06 22:43:22] [32mINFO[0m [train.py:848]: Epoch 60: g_total=0.0382, d_loss=1.9013, val_psnr=29.40, val_ssim=0.8069
+[2026-05-06 22:57:18] [32mINFO[0m [train.py:848]: Epoch 61: g_total=0.0383, d_loss=1.7511, val_psnr=29.37, val_ssim=0.8072
+[2026-05-06 23:11:13] [32mINFO[0m [train.py:848]: Epoch 62: g_total=0.0388, d_loss=1.8120, val_psnr=29.30, val_ssim=0.8046
+[2026-05-06 23:25:00] [32mINFO[0m [train.py:848]: Epoch 63: g_total=0.0382, d_loss=1.7498, val_psnr=29.36, val_ssim=0.8058
+[2026-05-06 23:38:51] [32mINFO[0m [train.py:848]: Epoch 64: g_total=0.0377, d_loss=1.6590, val_psnr=29.32, val_ssim=0.8063
+[2026-05-06 23:52:26] [32mINFO[0m [train.py:848]: Epoch 65: g_total=0.0392, d_loss=1.6642, val_psnr=29.15, val_ssim=0.8013
+[2026-05-07 00:06:15] [32mINFO[0m [train.py:848]: Epoch 66: g_total=0.0392, d_loss=1.7832, val_psnr=29.28, val_ssim=0.8031
+[2026-05-07 00:19:57] [32mINFO[0m [train.py:848]: Epoch 67: g_total=0.0387, d_loss=1.8550, val_psnr=29.20, val_ssim=0.8006
+[2026-05-07 00:33:42] [32mINFO[0m [train.py:848]: Epoch 68: g_total=0.0387, d_loss=1.8688, val_psnr=29.21, val_ssim=0.8015
+[2026-05-07 00:47:24] [32mINFO[0m [train.py:848]: Epoch 69: g_total=0.0383, d_loss=1.6880, val_psnr=29.30, val_ssim=0.8018
+[2026-05-07 01:01:15] [32mINFO[0m [train.py:848]: Epoch 70: g_total=0.0379, d_loss=1.7513, val_psnr=29.13, val_ssim=0.7964
+[2026-05-07 01:15:13] [32mINFO[0m [train.py:848]: Epoch 71: g_total=0.0387, d_loss=1.6830, val_psnr=28.97, val_ssim=0.7908
+[2026-05-07 01:28:59] [32mINFO[0m [train.py:848]: Epoch 72: g_total=0.0398, d_loss=1.6815, val_psnr=29.04, val_ssim=0.7923
+[2026-05-07 01:42:46] [32mINFO[0m [train.py:848]: Epoch 73: g_total=0.0396, d_loss=1.8748, val_psnr=28.60, val_ssim=0.7854
+[2026-05-07 01:56:27] [32mINFO[0m [train.py:848]: Epoch 74: g_total=0.0384, d_loss=1.7370, val_psnr=29.16, val_ssim=0.7992
+[2026-05-07 02:10:18] [32mINFO[0m [train.py:848]: Epoch 75: g_total=0.0391, d_loss=1.5597, val_psnr=29.07, val_ssim=0.7981
+[2026-05-07 02:24:05] [32mINFO[0m [train.py:848]: Epoch 76: g_total=0.0376, d_loss=1.8139, val_psnr=29.09, val_ssim=0.7989
+[2026-05-07 02:37:54] [32mINFO[0m [train.py:848]: Epoch 77: g_total=0.0384, d_loss=1.8262, val_psnr=29.09, val_ssim=0.7976
+[2026-05-07 02:51:33] [32mINFO[0m [train.py:848]: Epoch 78: g_total=0.0389, d_loss=1.7116, val_psnr=29.16, val_ssim=0.7987
+[2026-05-07 03:05:18] [32mINFO[0m [train.py:848]: Epoch 79: g_total=0.0391, d_loss=1.7108, val_psnr=28.87, val_ssim=0.7879
+[2026-05-07 03:19:08] [32mINFO[0m [train.py:848]: Epoch 80: g_total=0.0400, d_loss=1.7883, val_psnr=29.11, val_ssim=0.7959
+[2026-05-07 03:32:57] [32mINFO[0m [train.py:848]: Epoch 81: g_total=0.0394, d_loss=1.6115, val_psnr=29.19, val_ssim=0.7975
+[2026-05-07 03:46:44] [32mINFO[0m [train.py:848]: Epoch 82: g_total=0.0395, d_loss=1.6899, val_psnr=29.14, val_ssim=0.7965
+[2026-05-07 04:00:38] [32mINFO[0m [train.py:848]: Epoch 83: g_total=0.0382, d_loss=1.7874, val_psnr=28.98, val_ssim=0.7922
+[2026-05-07 04:14:27] [32mINFO[0m [train.py:848]: Epoch 84: g_total=0.0390, d_loss=1.7205, val_psnr=28.96, val_ssim=0.7921
+[2026-05-07 04:28:10] [32mINFO[0m [train.py:848]: Epoch 85: g_total=0.0391, d_loss=1.8692, val_psnr=28.95, val_ssim=0.7922
+[2026-05-07 04:41:57] [32mINFO[0m [train.py:848]: Epoch 86: g_total=0.0391, d_loss=1.7590, val_psnr=28.96, val_ssim=0.7907
+[2026-05-07 04:55:35] [32mINFO[0m [train.py:848]: Epoch 87: g_total=0.0392, d_loss=1.6363, val_psnr=28.95, val_ssim=0.7895
+[2026-05-07 05:09:18] [32mINFO[0m [train.py:848]: Epoch 88: g_total=0.0396, d_loss=1.5581, val_psnr=28.81, val_ssim=0.7835
+[2026-05-07 05:23:00] [32mINFO[0m [train.py:848]: Epoch 89: g_total=0.0394, d_loss=1.6873, val_psnr=28.69, val_ssim=0.7796
+[2026-05-07 05:36:33] [32mINFO[0m [train.py:848]: Epoch 90: g_total=0.0393, d_loss=1.6497, val_psnr=28.85, val_ssim=0.7837
+[2026-05-07 05:50:08] [32mINFO[0m [train.py:848]: Epoch 91: g_total=0.0386, d_loss=1.7595, val_psnr=28.84, val_ssim=0.7843
+[2026-05-07 06:03:45] [32mINFO[0m [train.py:848]: Epoch 92: g_total=0.0385, d_loss=1.8000, val_psnr=28.88, val_ssim=0.7883
+[2026-05-07 06:17:40] [32mINFO[0m [train.py:848]: Epoch 93: g_total=0.0378, d_loss=1.9503, val_psnr=28.95, val_ssim=0.7928
+[2026-05-07 06:31:21] [32mINFO[0m [train.py:848]: Epoch 94: g_total=0.0388, d_loss=1.8146, val_psnr=28.87, val_ssim=0.7919
+[2026-05-07 06:44:59] [32mINFO[0m [train.py:848]: Epoch 95: g_total=0.0369, d_loss=1.8255, val_psnr=29.01, val_ssim=0.7971
+[2026-05-07 06:58:41] [32mINFO[0m [train.py:848]: Epoch 96: g_total=0.0382, d_loss=1.7122, val_psnr=29.11, val_ssim=0.7992
+[2026-05-07 07:12:33] [32mINFO[0m [train.py:848]: Epoch 97: g_total=0.0381, d_loss=1.8069, val_psnr=29.23, val_ssim=0.8026
+[2026-05-07 07:26:12] [32mINFO[0m [train.py:848]: Epoch 98: g_total=0.0385, d_loss=1.7749, val_psnr=29.14, val_ssim=0.8007
+[2026-05-07 07:39:57] [32mINFO[0m [train.py:848]: Epoch 99: g_total=0.0379, d_loss=1.8825, val_psnr=29.16, val_ssim=0.8004
+[2026-05-07 07:53:38] [32mINFO[0m [train.py:848]: Epoch 100: g_total=0.0382, d_loss=1.8382, val_psnr=29.19, val_ssim=0.8019
+[2026-05-07 07:53:38] [32mINFO[0m [train.py:871]: Training completed successfully
+[2026-05-07 07:53:38] [32mINFO[0m [train.py:926]: ✓ All training completed successfully!

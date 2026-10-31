@@ -1,0 +1,54 @@
+{
+  "config": "configs\\esrgan_bach_medical.yaml",
+  "checkpoint": "runs\\esrgan_bach_x4\\checkpoints\\best_generator.pth",
+  "val_dir": "datasets\\val_HR",
+  "input_image": null,
+  "alpha": 0.8,
+  "scale": 4,
+  "num_images": 1,
+  "num_successful": 1,
+  "aggregate": {
+    "bicubic": {
+      "psnr_mean": 34.59458132289881,
+      "psnr_std": 0.0,
+      "ssim_mean": 0.8988617062568665,
+      "ssim_std": 0.0
+    },
+    "esrgan": {
+      "psnr_mean": 33.847917261054626,
+      "psnr_std": 0.0,
+      "ssim_mean": 0.8891863226890564,
+      "ssim_std": 0.0
+    },
+    "hybrid": {
+      "psnr_mean": 34.29479624699987,
+      "psnr_std": 0.0,
+      "ssim_mean": 0.8953490853309631,
+      "ssim_std": 0.0
+    }
+  },
+  "per_image": [
+    {
+      "image": "Benign_b003.tif",
+      "size": [
+        2048,
+        1536
+      ],
+      "metrics": {
+        "bicubic": {
+          "psnr": 34.59458132289881,
+          "ssim": 0.8988617062568665
+        },
+        "esrgan": {
+          "psnr": 33.847917261054626,
+          "ssim": 0.8891863226890564
+        },
+        "hybrid": {
+          "psnr": 34.29479624699987,
+          "ssim": 0.8953490853309631
+        }
+      }
+    }
+  ],
+  "elapsed_sec": 38.47
+}

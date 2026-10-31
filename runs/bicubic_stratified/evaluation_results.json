@@ -1,0 +1,9 @@
+{
+  "method": "bicubic",
+  "scale": 4,
+  "val_hr_dir": "datasets/val_HR_stratified",
+  "eval_crop_size": 512,
+  "num_images": 60,
+  "mean_psnr": 28.742988047960655,
+  "mean_ssim": 0.821197314063708
+}

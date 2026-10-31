@@ -1,0 +1,8 @@
+{
+  "epoch": 17,
+  "val_psnr": 29.180198249214598,
+  "val_ssim": 0.8392007390658061,
+  "model_name": "esrgan",
+  "selection": "best_post_gan_ssim",
+  "gan_start_epoch": 15
+}

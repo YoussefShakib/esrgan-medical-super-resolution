@@ -1,0 +1,6 @@
+{
+  "epoch": 22,
+  "val_psnr": 30.18939459512847,
+  "val_ssim": 0.8279222885767619,
+  "model_name": "esrgan"
+}

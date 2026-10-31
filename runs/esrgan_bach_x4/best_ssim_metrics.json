@@ -1,0 +1,10 @@
+{
+  "epoch": 15,
+  "val_psnr": 29.437019137319567,
+  "val_ssim": 0.815197366476059,
+  "model_name": "esrgan",
+  "selection": "best_post_gan_ssim",
+  "gan_start_epoch": 15,
+  "recovered_from": "best_generator.pth (epoch 15)",
+  "note": "Recovered by src/recover_best_ssim.py because the post-GAN-SSIM peak happens to coincide with a checkpoint that was actually saved to disk. Per-epoch snapshots were not available."
+}

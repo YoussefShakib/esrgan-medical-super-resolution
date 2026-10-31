@@ -1,0 +1,238 @@
+{
+  "bach_resnet50": {
+    "dataset": "bach",
+    "arch": "resnet50",
+    "checkpoint_epoch": 21,
+    "class_names": [
+      "Normal",
+      "Benign",
+      "InSitu",
+      "Invasive"
+    ],
+    "top1_acc": 0.7666666666666667,
+    "top3_acc": 0.95,
+    "ece": 0.10390491783618924,
+    "auc_per_class": {
+      "Normal": 0.9348148148148149,
+      "Benign": 0.888888888888889,
+      "InSitu": 0.9051851851851851,
+      "Invasive": 0.845925925925926
+    },
+    "macro_auc": 0.8937037037037038,
+    "per_class_metrics": {
+      "Normal": {
+        "precision": 0.75,
+        "recall": 0.8,
+        "f1": 0.7741935483870968,
+        "support": 15.0
+      },
+      "Benign": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1": 0.7272727272727273,
+        "support": 15.0
+      },
+      "InSitu": {
+        "precision": 0.9,
+        "recall": 0.6,
+        "f1": 0.72,
+        "support": 15.0
+      },
+      "Invasive": {
+        "precision": 0.8125,
+        "recall": 0.8666666666666667,
+        "f1": 0.8387096774193549,
+        "support": 15.0
+      }
+    },
+    "macro_avg": {
+      "precision": 0.7822916666666666,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7650439882697948,
+      "support": 60.0
+    },
+    "weighted_avg": {
+      "precision": 0.7822916666666667,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.7650439882697948,
+      "support": 60.0
+    }
+  },
+  "bach_efficientnet_b0": {
+    "dataset": "bach",
+    "arch": "efficientnet_b0",
+    "checkpoint_epoch": 6,
+    "class_names": [
+      "Normal",
+      "Benign",
+      "InSitu",
+      "Invasive"
+    ],
+    "top1_acc": 0.7,
+    "top3_acc": 0.8833333333333333,
+    "ece": 0.1521759957075119,
+    "auc_per_class": {
+      "Normal": 0.9362962962962963,
+      "Benign": 0.8903703703703704,
+      "InSitu": 0.8118518518518518,
+      "Invasive": 0.8251851851851852
+    },
+    "macro_auc": 0.8659259259259259,
+    "per_class_metrics": {
+      "Normal": {
+        "precision": 0.7,
+        "recall": 0.9333333333333333,
+        "f1": 0.8,
+        "support": 15.0
+      },
+      "Benign": {
+        "precision": 0.7692307692307693,
+        "recall": 0.6666666666666666,
+        "f1": 0.7142857142857143,
+        "support": 15.0
+      },
+      "InSitu": {
+        "precision": 0.625,
+        "recall": 0.6666666666666666,
+        "f1": 0.6451612903225806,
+        "support": 15.0
+      },
+      "Invasive": {
+        "precision": 0.7272727272727273,
+        "recall": 0.5333333333333333,
+        "f1": 0.6153846153846154,
+        "support": 15.0
+      }
+    },
+    "macro_avg": {
+      "precision": 0.7053758741258742,
+      "recall": 0.7,
+      "f1-score": 0.6937079049982275,
+      "support": 60.0
+    },
+    "weighted_avg": {
+      "precision": 0.7053758741258742,
+      "recall": 0.7,
+      "f1-score": 0.6937079049982277,
+      "support": 60.0
+    }
+  },
+  "brisc_resnet50": {
+    "dataset": "brisc",
+    "arch": "resnet50",
+    "checkpoint_epoch": 26,
+    "class_names": [
+      "glioma",
+      "meningioma",
+      "no_tumor",
+      "pituitary"
+    ],
+    "top1_acc": 0.964,
+    "top3_acc": 0.999,
+    "ece": 0.06293547874689102,
+    "auc_per_class": {
+      "glioma": 0.9970551603301597,
+      "meningioma": 0.9825582490440941,
+      "no_tumor": 0.9366445182724253,
+      "pituitary": 0.9986571428571428
+    },
+    "macro_auc": 0.9787287676259554,
+    "per_class_metrics": {
+      "glioma": {
+        "precision": 0.9799196787148594,
+        "recall": 0.9606299212598425,
+        "f1": 0.9701789264413518,
+        "support": 254.0
+      },
+      "meningioma": {
+        "precision": 0.9389067524115756,
+        "recall": 0.954248366013072,
+        "f1": 0.946515397082658,
+        "support": 306.0
+      },
+      "no_tumor": {
+        "precision": 0.9558823529411765,
+        "recall": 0.9285714285714286,
+        "f1": 0.9420289855072463,
+        "support": 140.0
+      },
+      "pituitary": {
+        "precision": 0.9802631578947368,
+        "recall": 0.9933333333333333,
+        "f1": 0.9867549668874173,
+        "support": 300.0
+      }
+    },
+    "macro_avg": {
+      "precision": 0.9637429854905871,
+      "recall": 0.959195762294419,
+      "f1-score": 0.9613695689796683,
+      "support": 1000.0
+    },
+    "weighted_avg": {
+      "precision": 0.9641075414117022,
+      "recall": 0.964,
+      "f1-score": 0.9639697068606364,
+      "support": 1000.0
+    }
+  },
+  "brisc_efficientnet_b0": {
+    "dataset": "brisc",
+    "arch": "efficientnet_b0",
+    "checkpoint_epoch": 36,
+    "class_names": [
+      "glioma",
+      "meningioma",
+      "no_tumor",
+      "pituitary"
+    ],
+    "top1_acc": 0.995,
+    "top3_acc": 1.0,
+    "ece": 0.08888612940907478,
+    "auc_per_class": {
+      "glioma": 1.0,
+      "meningioma": 0.9998964042869789,
+      "no_tumor": 1.0,
+      "pituitary": 0.999995238095238
+    },
+    "macro_auc": 0.9999729105955542,
+    "per_class_metrics": {
+      "glioma": {
+        "precision": 1.0,
+        "recall": 0.9881889763779528,
+        "f1": 0.994059405940594,
+        "support": 254.0
+      },
+      "meningioma": {
+        "precision": 0.990228013029316,
+        "recall": 0.9934640522875817,
+        "f1": 0.9918433931484503,
+        "support": 306.0
+      },
+      "no_tumor": {
+        "precision": 0.9929078014184397,
+        "recall": 1.0,
+        "f1": 0.99644128113879,
+        "support": 140.0
+      },
+      "pituitary": {
+        "precision": 0.9966777408637874,
+        "recall": 1.0,
+        "f1": 0.9983361064891847,
+        "support": 300.0
+      }
+    },
+    "macro_avg": {
+      "precision": 0.9949533888278858,
+      "recall": 0.9954132571663836,
+      "f1-score": 0.9951700466792548,
+      "support": 1000.0
+    },
+    "weighted_avg": {
+      "precision": 0.9950201864446884,
+      "recall": 0.995,
+      "f1-score": 0.9949977787185228,
+      "support": 1000.0
+    }
+  }
+}

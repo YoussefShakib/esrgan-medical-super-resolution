@@ -1,0 +1,16 @@
+{
+  "epoch": 36,
+  "arch": "efficientnet_b0",
+  "dataset": "brisc",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "val_acc": 0.995,
+  "val_acc_top3": 1.0,
+  "val_loss": 0.3913397269248962,
+  "train_acc": 0.9986,
+  "train_loss": 0.36786997313499453
+}

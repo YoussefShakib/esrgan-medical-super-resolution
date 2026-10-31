@@ -1,0 +1,27 @@
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:755]: Loaded config: configs\esrgan_brain_mri.yaml
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:756]: Model: esrgan, Scale: 4
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:383]: Starting ESRGAN training for esrgan_brain_mri_x4
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:396]: Experiment dir: runs\esrgan_brain_mri_x4
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:440]: Validation subset enabled: 180/900 images
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:446]: Generator parameters: 7,567,043
+[2026-04-28 18:44:42] [32mINFO[0m [train.py:447]: Discriminator parameters: 5,215,425
+[2026-04-28 18:44:45] [32mINFO[0m [train.py:527]: Starting ESRGAN training from epoch 1/60
+[2026-04-28 18:44:45] [32mINFO[0m [train.py:528]: GAN will start at epoch 15
+[2026-04-28 18:44:45] [32mINFO[0m [train.py:529]: Validation cadence: every 5 epoch(s); sample cadence: every 5 epoch(s)
+[2026-04-28 20:14:11] [32mINFO[0m [train.py:713]: Epoch 1: g_total=0.0376, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-28 21:15:37] [32mINFO[0m [train.py:713]: Epoch 2: g_total=0.0308, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-28 22:35:49] [32mINFO[0m [train.py:713]: Epoch 3: g_total=0.0300, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-28 23:33:22] [32mINFO[0m [train.py:713]: Epoch 4: g_total=0.0293, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 00:33:32] [32mINFO[0m [train.py:700]: New best PSNR: 33.33
+[2026-04-29 00:33:32] [32mINFO[0m [train.py:706]: Epoch 5: g_total=0.0292, d_loss=0.0000, val_psnr=33.33, val_ssim=0.9051
+[2026-04-29 01:33:58] [32mINFO[0m [train.py:713]: Epoch 6: g_total=0.0288, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 02:34:48] [32mINFO[0m [train.py:713]: Epoch 7: g_total=0.0288, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 03:35:30] [32mINFO[0m [train.py:713]: Epoch 8: g_total=0.0285, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 04:36:28] [32mINFO[0m [train.py:713]: Epoch 9: g_total=0.0280, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 05:40:05] [32mINFO[0m [train.py:700]: New best PSNR: 33.60
+[2026-04-29 05:40:05] [32mINFO[0m [train.py:706]: Epoch 10: g_total=0.0278, d_loss=0.0000, val_psnr=33.60, val_ssim=0.9076
+[2026-04-29 06:41:00] [32mINFO[0m [train.py:713]: Epoch 11: g_total=0.0278, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 07:40:34] [32mINFO[0m [train.py:713]: Epoch 12: g_total=0.0279, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 08:38:01] [32mINFO[0m [train.py:713]: Epoch 13: g_total=0.0277, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 09:39:15] [32mINFO[0m [train.py:713]: Epoch 14: g_total=0.0275, d_loss=0.0000, validation skipped (eval_every_epochs=5)
+[2026-04-29 11:01:30] [32mINFO[0m [train.py:706]: Epoch 15: g_total=0.0300, d_loss=1.7692, val_psnr=32.32, val_ssim=0.8940

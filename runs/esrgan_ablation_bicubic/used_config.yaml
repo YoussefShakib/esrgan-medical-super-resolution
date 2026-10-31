@@ -1,0 +1,33 @@
+experiment_name: esrgan_ablation_bicubic
+model_name: esrgan
+scale: 4
+seed: 42
+device: auto
+save_dir: runs
+
+dataset:
+  train_hr_dir: datasets/train_HR
+  val_hr_dir: datasets/val_HR
+  image_mode: RGB
+  patch_size: 192
+  eval_crop_size: 512
+  degradation:
+    method: bicubic      # Config A: clean bicubic-only degradation
+
+training:
+  batch_size: 4
+  num_workers: 0
+  epochs: 100
+  lr_g: 0.0001
+  lr_d: 0.0001
+  lr_step: 20
+  lr_gamma: 0.5
+  gan_start_epoch: 15
+  pixel_weight: 1.0
+  perceptual_weight: 0.01
+  adv_weight: 0.005
+  gradient_clip_value: 1.0
+  stable_gan: true
+  disc_warmup_epochs: 2
+  r1_penalty_weight: 10.0
+  pretrained_generator:

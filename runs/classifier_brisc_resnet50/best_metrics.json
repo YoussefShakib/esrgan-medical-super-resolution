@@ -1,0 +1,16 @@
+{
+  "epoch": 26,
+  "arch": "resnet50",
+  "dataset": "brisc",
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "no_tumor",
+    "pituitary"
+  ],
+  "val_acc": 0.964,
+  "val_acc_top3": 0.999,
+  "val_loss": 0.5341958332061768,
+  "train_acc": 0.9874,
+  "train_loss": 0.3887630091667175
+}

@@ -1,0 +1,7 @@
+dataset,classifier_arch,n_samples,condition,label,top1_acc,macro_f1
+bach,resnet50,60,hr,Original HR,0.7667,0.7650
+bach,resnet50,60,lr_bicubic,Degraded LR (bicubic ÷4 → ×4),0.7500,0.7422
+bach,resnet50,60,esrgan_sr,ESRGAN SR (HR → LR → ESRGAN ×4),0.7333,0.7328
+brisc,efficientnet_b0,1000,hr,Original HR,0.9950,0.9952
+brisc,efficientnet_b0,1000,lr_bicubic,Degraded LR (bicubic ÷4 → ×4),0.4830,0.4589
+brisc,efficientnet_b0,1000,esrgan_sr,ESRGAN SR (HR → LR → ESRGAN ×4),0.8770,0.8634

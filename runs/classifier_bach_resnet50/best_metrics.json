@@ -1,0 +1,16 @@
+{
+  "epoch": 21,
+  "arch": "resnet50",
+  "dataset": "bach",
+  "class_names": [
+    "Normal",
+    "Benign",
+    "InSitu",
+    "Invasive"
+  ],
+  "val_acc": 0.7666666666666667,
+  "val_acc_top3": 0.95,
+  "val_loss": 0.9608076930046081,
+  "train_acc": 0.9147058823529411,
+  "train_loss": 0.5481688590610728
+}

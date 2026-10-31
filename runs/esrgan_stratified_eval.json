@@ -1,0 +1,6 @@
+{
+  "checkpoint": "runs/esrgan_bach_x4/checkpoints/best_generator.pth",
+  "num_images": 60,
+  "mean_psnr": 28.31392775355279,
+  "mean_ssim": 0.8137767453988393
+}

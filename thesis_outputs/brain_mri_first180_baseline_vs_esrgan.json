@@ -1,0 +1,15 @@
+{
+  "num_images": 180,
+  "bicubic": {
+    "mean_psnr": 32.37019971113732,
+    "mean_ssim": 0.8873581816752751
+  },
+  "esrgan": {
+    "mean_psnr": 33.59591999962062,
+    "mean_ssim": 0.9076028880145814
+  },
+  "delta_esrgan_minus_bicubic": {
+    "psnr": 1.225720288483302,
+    "ssim": 0.020244706339306306
+  }
+}
